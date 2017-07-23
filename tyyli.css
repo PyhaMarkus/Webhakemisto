@@ -1,0 +1,148 @@
+/* CSS-määritykset Webhakemistoa varten */
+	/* Markus Pyhäranta 2017. */
+
+
+/* ---------------------------------------------------------------- */
+
+/* Otsikkojen koot riippuen näytön koosta. */
+
+@media (max-width: 950px) {
+
+h1	{font-size: 20px;}
+
+}
+
+@media (min-width:960px) {
+	
+h1	{font-size: 30px;}
+
+}
+
+/* Tekstit katoaa näyttövälillä 768-950px. */
+
+@media (min-width: 768px) and (max-width: 1100px) {
+    
+	p {
+        
+		display: none;
+    
+	}
+}
+
+/* ---------------------------------------------------------------- */
+
+/* Kuvien koot. Koko skaalautuu näytön mukaan. */
+
+.thumbnail {
+	
+	width: 8,333vw;
+	height: 8,333vh;
+	border-radius: 0px;
+	background-color: white;
+	
+}
+
+/* Kuvien varjostus */
+
+.thumbnail:hover {
+
+	box-shadow: 0px 0px 53px -4px rgba(77,77,77,1);
+	
+}
+
+.harmaa .thumbnail:hover {
+
+	box-shadow:  0px 0px 53px -4px rgba(255,0,0,0.7);
+	
+}
+
+/* Kuvalinkit */
+
+.kuvalinkki {
+	
+	
+	
+}
+
+
+/* Kuvakoon rajoitukset */
+
+img {
+	
+	max-width: 130px;
+	max-height: 130px;
+		
+}
+
+/* ---------------------------------------------------------------- */
+
+/* Otsikko */
+
+h1 {
+	
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+/* Teksti */
+
+p {
+	
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size:calc(10px + 0.5vw);
+	
+}
+
+/* ---------------------------------------------------------------- */
+
+/* Harmaa Container-fluid */
+
+.harmaa {
+	
+	background-color: #eaedf2;
+	
+}
+
+/* ---------------------------------------------------------------- */
+
+/* Kello Container-fluid */
+
+.kello {
+	
+	background-color: #eaedf2;
+	text-align: center;
+	padding: 20px;
+	font-size:calc(12px + 2vw);
+	
+}
+
+/* Div kellon ympärillä */
+
+#aika {
+	
+	background-color: white;
+	width: 12vw;
+	display: inline-block;		
+	
+}
+
+/* ---------------------------------------------------------------- */
+
+/* Tekijänoikeudet. Tekstin väri. Markus Pyhäranta 2017. */
+
+#trademark {
+	
+	color: #e6e8ed;
+	
+}
+
+/* ---------------------------------------------------------------- */
+
+/* Kaikki sivuston linkit. Ei alleviivausta teksteihin. */
+
+a:-webkit-any-link {text-decoration: none;}
+
+a:-moz-any-link {text-decoration: none;}
+	
