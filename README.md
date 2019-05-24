@@ -5,4 +5,4 @@ Tein tämän isoäitiäni varten, joka opettelee tietokoneen käyttöä. Pitäis
 
 Tuohon voi tehdä omat linkit, kuvat ja niiden kuvaukset. Pohja toimii sellaisenaan ja skaalautuu näyttökoon mukaan.
 
-![alt text](https://url "webhakemisto")
+![alt text](https://github.com/PyhaMarkus/webhakemisto/blob/master/kuvat/webhakemisto.PNG "webhakemisto")
